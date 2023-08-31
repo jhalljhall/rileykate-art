@@ -1982,6 +1982,181 @@ body.modal-open{
 }
 
 /*------------------------------------------------------------------*/
+/*	10.5) Payment Section
+/*------------------------------------------------------------------*/
+.section_payments{
+	padding: 100px 0 55px;
+}
+.section_payments .payment_footer > *,
+.section_payments .payment_footer{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.section_payments .payment_filter ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-left: -44px;
+	margin-bottom: 40px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+}
+.section_payments .payment_filter li{
+	padding-left: 44px;
+}
+.section_payments .payment_filter a{
+	text-decoration: none;
+	color: #777;
+	font-size: 14px;
+	font-weight: 400;
+	position: relative;
+	text-transform: uppercase;
+}
+.section_payments .payment_filter a.current,
+.section_payments .payment_filter a:hover{
+	color: #0e090d;
+}
+.section_payments .payment_filter a:after{
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 10px;
+	background-color: #777;
+	right: -23px;
+	top: 50%;
+	margin-top: -5px;
+}
+.section_payments .payment_filter a:hover:after{
+	background-color: #000;
+}
+.section_payments .payment_filter li:last-child a:after{
+	width: 0;
+}
+.section_payments .payment_list{
+	max-width: 100%;
+}
+.section_payments .payment_list ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: -45px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section_payments .payment_list li{
+	width: 33.3333%;
+	float: left;
+	padding-left: 45px;
+	margin-bottom: 45px;
+	position: relative;
+}
+.section_payments .payment_list a{
+	color: #777;
+}
+.section_payments .item{
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.section_payments .gallery_img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: -40px;
+	right: 0;
+	z-index: 15;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+	transition: all .5s ease;
+}
+.section_payments .item:hover .gallery_text{
+	opacity: 1;
+	height: 100%;
+	overflow: hidden;
+}
+.section_payments .item:hover .gallery_img{
+	top: 0;
+}
+.section_payments .payment_list img{
+	min-width: 100%;
+	position: relative;
+	z-index: 10;
+	opacity: 0;
+	display: block;
+	overflow: hidden;
+}
+.section_payments .gallery_text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	opacity: 0;
+	z-index: 15;
+	transition: all 0.5s ease;
+	background-color: rgba(0,0,0,0.8);
+	height: 0;
+	overflow: inherit;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10px;
+}
+.section_payments li span{
+	position: relative;
+	overflow: hidden;
+	color: #ccc;
+}
+.section_payments .gallery_title{
+	text-transform: uppercase;
+	margin-bottom: 9px;
+}
+.section_payments li span:first-child{
+	font-size: 14px;
+	font-weight: 400;
+	overflow: hidden;
+}
+.section_payments li .fn__title{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	overflow: hidden;
+}
+
+/*------------------------------------------------------------------*/
 /*	13) NEW SLIDER: main slider
 /*------------------------------------------------------------------*/
 .main_slider{
