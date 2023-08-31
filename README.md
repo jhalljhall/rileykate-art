@@ -1,1 +1,0 @@
-*  Future Home of Riley Kate Hall 
