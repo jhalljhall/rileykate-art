@@ -1839,6 +1839,7 @@ body.modal-open{
 	display: -o-flex;
 	display: flex;
 	width: 100%;
+    justify-content: center;
 }
 .section_contact .contact_footer_form{
 	width: 85%;
