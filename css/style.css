@@ -363,7 +363,7 @@ h1,h2,h3,h4,h5,h6{
 .persono_fn_sidebar .logo span{
 	width: 8px;
 	height: 8px;
-	background-color: #ff5251;
+	background-color: #000000;
 	display: block;
 	text-decoration: none;
 	border-radius: 100%;
@@ -2098,11 +2098,11 @@ body.modal-open{
 .section_payments .item:hover .gallery_img{
 	top: 0;
 }
+
 .section_payments .payment_list img{
 	min-width: 100%;
 	position: relative;
 	z-index: 10;
-	opacity: 0;
 	display: block;
 	overflow: hidden;
 }
